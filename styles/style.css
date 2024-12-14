@@ -92,12 +92,17 @@ header nav ul li a {
 }
 
 /* Image Grid */
-.image-grid {
+
+.image-gird{
+    display: flex;
+    
+}
+/* .image-grid {
     display: grid;
     grid-template-columns: repeat(300px, 1fr);
     gap: 32px;
     padding: 52px 0;
-}
+} */
 
 .image-item {
     text-align: center;
