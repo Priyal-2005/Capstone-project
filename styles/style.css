@@ -1,0 +1,260 @@
+body {
+    width: 1440px;
+    margin: 0;
+    padding: 0 48px;
+    background: #FEFDFB;
+    font-family: "Roboto Serif", serif;
+    color: #28241B;
+}
+
+/* Header Section */
+header {
+    width: 100%;
+    height: 88px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FEFDFB;
+}
+
+header .logo {
+    font-family: "Source Serif 4", serif;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    color: #28241B;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    font-family: "Roboto Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #28241B;
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    padding: 96px 0;
+}
+
+.welcome-section h1 {
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    margin-bottom: 52px;
+}
+
+.welcome-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 28px;
+}
+
+/* Discover Section */
+.discover-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 52px 0;
+}
+
+.discover-section h2 {
+    flex: 2;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+}
+
+.discover-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.discover-details .location,
+.discover-details .established {
+    font-size: 20px;
+    font-weight: 400;
+    color: #28241B;
+}
+
+/* Image Grid */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(300px, 1fr);
+    gap: 32px;
+    padding: 52px 0;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.image-item h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+.image-item p {
+    font-size: 17px;
+    color: #2E27149E;
+}
+
+/* About Me Section */
+.about-me {
+    text-align: center;
+    padding: 32px 0;
+    background-color: #FEFDFB;
+}
+
+.about-me p {
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #28241B;
+}
+
+/* Timeless Elegance Section */
+.timeless-elegance {
+    text-align: center;
+    padding: 52px 0;
+}
+
+.timeless-elegance h2 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    margin-bottom: 20px;
+}
+
+.timeless-elegance p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.timeless-elegance img {
+    width: 80%;
+    height: auto;
+    border-radius: 16px;
+}
+
+/* What I Do Section */
+.what-i-do {
+    text-align: center;
+    padding: 52px 0;
+}
+
+.what-i-do h2 {
+    font-size: 96px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.service-item {
+    max-width: 300px;
+    text-align: center;
+}
+
+.service-item h5 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Client Testimonials Section */
+.client-testimonials {
+    text-align: center;
+    padding: 52px 0;
+}
+
+.client-testimonials h2 {
+    font-size: 96px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 32px;
+}
+
+.testimonial {
+    text-align: center;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.testimonial h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2E27149E;
+    margin-bottom: 16px;
+}
+
+.testimonial blockquote {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #28241B;
+    text-decoration: none;
+}
